@@ -62,6 +62,7 @@ const Home = () => {
           <div>
             <div className="flex justify-center flex-wrap mt-[2rem]">
               {data.products.map((product) => (
+                
                 <div key={product._id}>
                   <Product product={product} />
                 </div>
